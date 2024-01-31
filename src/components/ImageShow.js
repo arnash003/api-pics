@@ -2,7 +2,7 @@ import React from 'react'
 
 function ImageShow({ image }) {
     return (
-        <div>{image.alt_description}</div>
+        <div><img src={image.urls.small} alt={image.alt_description} /></div>
     )
 }
 
